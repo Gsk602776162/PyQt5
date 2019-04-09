@@ -7,7 +7,6 @@ from PyQt5 import QtWidgets
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     MainWindow = QMainWindow()
-    QtWidgets.QDialog
     ui = BurningToolDlg.Ui_MainWindow()
     ui = MainDlgSlot()
 

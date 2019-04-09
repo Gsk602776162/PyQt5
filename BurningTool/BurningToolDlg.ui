@@ -570,6 +570,9 @@
     </property>
    </widget>
    <widget class="QGroupBox" name="groupBox">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -606,62 +609,65 @@
      <item>
       <widget class="QProgressBar" name="progressBar9">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar10">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar11">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar12">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar13">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar14">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar15">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar16">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
     </layout>
    </widget>
    <widget class="QGroupBox" name="groupBox_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -677,19 +683,6 @@
     </property>
     <property name="title">
      <string>烧录结果</string>
-    </property>
-   </widget>
-   <widget class="QGroupBox" name="groupBox_3">
-    <property name="geometry">
-     <rect>
-      <x>790</x>
-      <y>100</y>
-      <width>201</width>
-      <height>521</height>
-     </rect>
-    </property>
-    <property name="title">
-     <string>端口</string>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget_2">
@@ -714,7 +707,10 @@
      <item>
       <widget class="QLabel" name="labelportcombo9">
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -726,7 +722,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -738,7 +737,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -750,7 +752,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -762,7 +767,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -774,7 +782,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -786,7 +797,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -798,7 +812,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -820,246 +837,56 @@
      <item>
       <widget class="QProgressBar" name="progressBar1">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar2">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar3">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar4">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar5">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar6">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar7">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QProgressBar" name="progressBar8">
        <property name="value">
-        <number>24</number>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>800</x>
-      <y>159</y>
-      <width>91</width>
-      <height>451</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_3">
-     <property name="leftMargin">
-      <number>0</number>
-     </property>
-     <item>
-      <widget class="QComboBox" name="comboBox1"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox2"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox3"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox4"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox5"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox6"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox7"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox8"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox9"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox10"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox11"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox12"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox13"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox14"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox15"/>
-     </item>
-     <item>
-      <widget class="QComboBox" name="comboBox16"/>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>890</x>
-      <y>158</y>
-      <width>91</width>
-      <height>451</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_4">
-     <property name="leftMargin">
-      <number>20</number>
-     </property>
-     <item>
-      <widget class="QLabel" name="labelstate1">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate2">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate3">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate4">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate5">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate6">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate7">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate8">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate9">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate10">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate11">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate12">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate13">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate14">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate15">
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="labelstate16">
-       <property name="text">
-        <string>TextLabel</string>
+        <number>0</number>
        </property>
       </widget>
      </item>
@@ -1087,7 +914,10 @@
      <item>
       <widget class="QLabel" name="labelportcombo1">
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -1099,7 +929,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -1111,7 +944,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -1123,7 +959,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -1135,7 +974,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -1147,7 +989,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -1159,7 +1004,10 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -1171,15 +1019,385 @@
         </font>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>None</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
     </layout>
    </widget>
-   <zorder>groupBox_2</zorder>
-   <zorder>groupBox_3</zorder>
+   <widget class="QComboBox" name="comboBox13">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>498</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox14">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>526</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox12">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>470</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox16">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>582</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox15">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>554</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox1">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>162</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox2">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>190</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox3">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>218</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox4">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>246</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox6">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>302</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox5">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>274</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox8">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>358</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox7">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>330</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox9">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>386</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox11">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>442</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox10">
+    <property name="geometry">
+     <rect>
+      <x>801</x>
+      <y>414</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate15">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>557</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate16">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>586</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate1">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>159</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate2">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>187</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate3">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>216</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate4">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>244</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate5">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>273</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate6">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>301</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate7">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>330</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate8">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>358</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate9">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>387</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate10">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>415</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate11">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>443</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate13">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>500</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate12">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>472</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelstate14">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>529</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
    <zorder>groupBox</zorder>
+   <zorder>groupBox_2</zorder>
    <zorder>layoutWidget</zorder>
    <zorder>layoutWidget</zorder>
    <zorder>layoutWidget</zorder>
@@ -1262,11 +1480,23 @@
    </property>
   </action>
   <action name="actionpic8">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
    <property name="text">
     <string>8</string>
    </property>
   </action>
   <action name="actionpic16">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
    <property name="text">
     <string>16</string>
    </property>
